@@ -133,7 +133,7 @@ export default function Contact() {
             <div className="footer-bottom">
                 <p>&copy; 2025 Mumbai Maritime Training Institute. All rights reserved.</p>
                 <div className="partner-logo">
-                    <img src="./img/DNVLogo.jpg" alt="DNV Partner" />
+                    <img src="/img/DNVLogo.jpg" alt="DNV Partner" />
                 </div>
             </div>
         </section>

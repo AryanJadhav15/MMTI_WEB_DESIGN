@@ -31,7 +31,7 @@ export default function Hero() {
         <section id="home" className="hero">
             <div className="hero-background">
                 <img 
-                    src="./img/bg_banner (3).jpg" 
+                    src="/img/bg_banner (3).jpg" 
                     alt="Maritime background" 
                     className="hero-image"
                 />
@@ -48,10 +48,10 @@ export default function Hero() {
                     </div>
 
                     <div className="hero-logos">
-                    <img src="./img/Picture2.png" alt="Picture 2" className="logo" />
-                    <img src="./img/Picture3.png" alt="Picture 3" className="logo" />
-                    <img src="./img/DNVLogo.jpg" alt="DNV Logo" className="logo" />
-                    <img src="./img/MMTI logo.jpg" alt="MMTI Logo" className="logo" />
+                    <img src="/img/Picture2.png" alt="Picture 2" className="logo" />
+                    <img src="/img/Picture3.png" alt="Picture 3" className="logo" />
+                    <img src="/img/DNVLogo.jpg" alt="DNV Logo" className="logo" />
+                    <img src="/img/MMTI logo.jpg" alt="MMTI Logo" className="logo" />
                 </div>
 
                 </div>
@@ -88,7 +88,7 @@ export default function Hero() {
         <section id="home" className="hero">
             <div className="hero-background">
                 <img 
-                    src="./img/quality_policy.jpg" 
+                    src="/img/quality_policy.jpg" 
                     alt="Maritime background" 
                     className="hero-image"
                 />
@@ -116,7 +116,7 @@ export default function Hero() {
         <section id="home" className="hero">
             <div className="hero-background">
                 <img 
-                    src="./img/section-3.jpg" 
+                    src="/img/section-3.jpg" 
                     alt="Maritime background" 
                     className="hero-image"
                 />

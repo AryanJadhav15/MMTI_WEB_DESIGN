@@ -52,7 +52,7 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <div className="navbar-logo">
-                    <img src="./img/MMTI logo.jpg" alt="MMTI Logo" className="logo-img" />
+                    <img src="/img/MMTI logo.jpg" alt="MMTI Logo" className="logo-img" />
                    
                     <span className="logo-text">MMTI</span>
                     

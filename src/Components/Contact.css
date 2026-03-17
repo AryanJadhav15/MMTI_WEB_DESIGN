@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-image: url('../../img/cargo-ship-7221154_1280.jpg');
+    background-image: url('/img/cargo-ship-7221154_1280.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

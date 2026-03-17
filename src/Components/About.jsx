@@ -26,7 +26,7 @@ export default function About() {
                     <div className="about-image">
                     <div className="director-card">
                         <img
-                            src="./img/owner-director-1.png"
+                            src="/img/owner-director-1.png"
                             alt="Capt. C.L. Dubey"
                             className="director-img"
                         />
@@ -35,7 +35,7 @@ export default function About() {
 
                     <div className="director-card">
                         <img
-                            src="./img/owner-director-2.png"
+                            src="/img/owner-director-2.png"
                             alt="Capt. O.P. Yadav"
                             className="director-img"
                         />

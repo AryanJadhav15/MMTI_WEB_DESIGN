@@ -334,13 +334,13 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `./photo_gallery/SimulatorRoom4.jpg`, text: 'Simulator room' },
-      { image: "./photo_gallery/simulatorRoom9.jpg", text: 'Desk Setup' },
-      { image: "./photo_gallery/simulatorRoom2.jpg", text: 'Classrooms' },
-      { image:"./photo_gallery/MMTI Khopoli Swimming Pool.jpg", text: 'Training' },
-      { image: `./img/owner-director-1.png`, text: 'Captain C.L  Dubey' },
-      { image: `./img/owner-director-2.png`, text: 'Capt. O.P. Yadav' },
-      { image: `./photo_gallery/MMTI - CMMI meeting 01Sep17.jpg`, text: 'CMMI meeting' },
+      { image: `/photo_gallery/SimulatorRoom4.jpg`, text: 'Simulator room' },
+      { image: "/photo_gallery/SimulatorRoom9.jpg", text: 'Desk Setup' },
+      { image: "/photo_gallery/SimulatorRoom2.jpg", text: 'Classrooms' },
+      { image: "/photo_gallery/MMTI Khopoli Swimming Pool.jpg", text: 'Training' },
+      { image: `/img/owner-director-1.png`, text: 'Captain C.L  Dubey' },
+      { image: `/img/owner-director-2.png`, text: 'Capt. O.P. Yadav' },
+      { image: `/photo_gallery/MMTI - CMMI meeting 01Sep17.jpg`, text: 'CMMI meeting' },
     
   
     ];
