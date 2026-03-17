@@ -1,6 +1,6 @@
 import './Hero.css';
 import { useEffect, useState } from 'react';
-import CircularGallery from '../../../src/bits/CircularGallery'
+import CircularGallery from '../bits/CircularGallery'
 
 export default function Hero() {
     const dialogues = [
