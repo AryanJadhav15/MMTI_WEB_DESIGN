@@ -47,19 +47,12 @@ export default function Hero() {
                         <a href="#about" className="cta-button secondary">Learn More</a>
                     </div>
 
-                    <div className="hero-logos">
-                    <img src="/img/Picture2.png" alt="Picture 2" className="logo" />
-                    <img src="/img/Picture3.png" alt="Picture 3" className="logo" />
-                    <img src="/img/DNVLogo.jpg" alt="DNV Logo" className="logo" />
-                    <img src="/img/MMTI logo.jpg" alt="MMTI Logo" className="logo" />
-                </div>
+                    
 
                 </div>
-                 
-                
-
+            
                 <div className="hero-stats">
-                       
+                
                     <div className="stat-card">
                         <div className="stat-number">27+</div>
                         <div className="stat-label">Years of Excellence</div>
@@ -74,6 +67,13 @@ export default function Hero() {
                     </div>
                     
                 </div>
+                <div></div>
+                <div className="hero-logos">
+                    <img src="/img/Picture2.png" alt="Picture 2" className="logo" />
+                    <img src="/img/Picture3.png" alt="Picture 3" className="logo" />
+                    <img src="/img/DNVLogo.jpg" alt="DNV Logo" className="logo" />
+                    <img src="/img/MMTI logo.jpg" alt="MMTI Logo" className="logo" />
+                </div>
                 
             </div>
 
@@ -86,7 +86,7 @@ export default function Hero() {
         </div>
 
         <section id="home" className="hero">
-            <div className="hero-background">
+            <div className="hero-background-2">
                 <img 
                     src="/img/quality_policy.jpg" 
                     alt="Maritime background" 

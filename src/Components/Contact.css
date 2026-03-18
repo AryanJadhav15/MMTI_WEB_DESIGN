@@ -32,6 +32,7 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    align-items: centern;
 }
 
 .contact-title {
@@ -44,16 +45,16 @@
     text-transform: uppercase;
 }
 
-.contact-wrapper {
+/* .contact-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: start;
-}
+} */
 
 /* Left Column - Form */
 .contact-form-column {
-    padding-right: 2rem;
+    padding-right: auto;
 }
 
 .contact-form {
