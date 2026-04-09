@@ -46,11 +46,12 @@
     color: #666;
     line-height: 1.8;
     max-width: 900px;
-    margin: 0 auto;
+    padding: 20px;
 }
 
 .faculty-table-wrapper {
     background: #fff;
+    display: flex;
     border-radius: 12px;
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -130,6 +131,14 @@
 .faculty-table tbody tr.header-row td:first-child {
     color: transparent;
 }
+
+/* .directors-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border:2px solid #0f2c5f;
+    border-radius: 5px;
+} */
 
 /* Responsive Design */
 @media (max-width: 1024px) {
