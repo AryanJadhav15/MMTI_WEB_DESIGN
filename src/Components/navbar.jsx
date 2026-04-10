@@ -52,11 +52,7 @@ export default function Navbar() {
         <nav className="navbar">
             <div className="navbar-container">
                 <div className="navbar-logo">
-                    <img src="/img/MMTI logo.jpg" alt="MMTI Logo" className="logo-img" />
-                   
-                    <span className="logo-text">MMTI</span>
-                    
-                    
+                    <span className="logo-text">Mumbai Maritime Training Institute</span>
                 </div>
 
                 <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
@@ -69,28 +65,36 @@ export default function Navbar() {
                     <li className="nav-item">
                         <Link to="/" className="nav-link" onClick={closeMenu}>Home</Link>
                     </li>
+
                     <li className="nav-item">
                         <a href="#about" className="nav-link" onClick={(e) => handleNavClick(e, '#about')}>About</a>
                     </li>
+
                     <li className="nav-item">
                         <a href="#courses" className="nav-link" onClick={(e) => handleCoursesClick(e,'#courses')}>Courses </a>
                         
                     </li>
+
                     <li className="nav-item">
                         <a href="#faculty" className="nav-link" onClick={(e) => handleNavClick(e, '#faculty')}>Faculty</a>
                     </li>
-                    <li className="nav-item">
-                        <a href="#contact" className="nav-link" onClick={(e) => handleNavClick(e, '#contact')}>Contact</a>
-                    </li>
+
                     <li className="nav-item">
                         <Link to="/gallery" className="nav-link" onClick={closeMenu}>Photo Gallery</Link>
                     </li>
+
                     <li className="nav-item">
                         <Link to="/library" className="nav-link" onClick={closeMenu}>Library</Link>
                     </li>
+
                     <li className="nav-item">
                         <Link to="/news" className="nav-link" onClick={closeMenu}>News</Link>
                     </li>
+
+                    <li className="nav-item">
+                        <a href="#contact" className="nav-link" onClick={(e) => handleNavClick(e, '#contact')}>Contact</a>
+                    </li>
+
                     <li className="nav-item">
                         <a href="#book" className="nav-link nav-cta" onClick={(e) => handleNavClick(e, '#book')}>Book Now</a>
                     </li>
