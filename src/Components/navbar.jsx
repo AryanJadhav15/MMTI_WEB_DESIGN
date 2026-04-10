@@ -4,6 +4,7 @@ import './navbar.css';
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
     const location = useLocation();
     const navigate = useNavigate();
 
@@ -13,6 +14,7 @@ export default function Navbar() {
 
     const closeMenu = () => {
         setIsMenuOpen(false);
+        setIsAboutDropdownOpen(false);
     };
 
     const handleNavClick = (e, href) => {
@@ -39,13 +41,7 @@ export default function Navbar() {
     };
 
     const handleCoursesClick = (e) => {
-        // On small screens, clicking Courses should navigate to courses section directly
-        if (window.innerWidth <= 768) {
-            handleNavClick(e, '#courses');
-        } else {
-            // on desktop keep dropdown behavior
-            e.preventDefault();
-        }
+        handleNavClick(e, '#courses');
     };
 
     return (
@@ -63,7 +59,7 @@ export default function Navbar() {
 
                 <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
                     <li className="nav-item">
-                        <Link to="/" className="nav-link" onClick={closeMenu}>Home</Link>
+                        <a href="#home" className="nav-link" onClick={(e) => handleNavClick(e, '#home')}>Home</a>
                     </li>
 
                     <li className="nav-item">
