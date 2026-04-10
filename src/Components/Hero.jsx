@@ -84,7 +84,6 @@ export default function Hero() {
 
                     <div className="hero-logos">
                         <img src="/img/Picture2.png" alt="Picture 2" className="logo" />
-                        <img src="/img/Picture3.png" alt="Picture 3" className="logo" />
                         <img src="/img/DNVLogo.jpg" alt="DNV Logo" className="logo" />
                         <img src="/img/MMTI logo.jpg" alt="MMTI Logo" className="logo" />
                     </div>
@@ -92,7 +91,7 @@ export default function Hero() {
                     <div className='advertisement-section'>
                         <div className="advertisement-card">
                             <div className="ad-card-header">
-                                <h3 className="ad-card-title">Special Training Program</h3>
+                                <h3 className="ad-card-title">Job Opportunities</h3>
                                 <span className="ad-card-badge">Limited Time</span>
                             </div>
                             <p className="ad-card-description">
