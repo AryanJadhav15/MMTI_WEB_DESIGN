@@ -60,14 +60,9 @@ export default function Hero() {
                             <a href="#about" className="cta-button secondary">Learn More</a>
                         </div>
 
-                    </div>
-                    <div className="hero-logos">
-                        <img src="/img/Picture2.png" alt="Picture 2" className="logo" />
-                        <img src="/img/Picture3.png" alt="Picture 3" className="logo" />
-                        <img src="/img/DNVLogo.jpg" alt="DNV Logo" className="logo" />
-                        <img src="/img/MMTI logo.jpg" alt="MMTI Logo" className="logo" />
-                    </div>
 
+
+                    </div>
 
                     <div className="hero-stats">
 
@@ -80,8 +75,6 @@ export default function Hero() {
                             <div className="stat-label">Students Trained</div>
                         </div>
                         <div className="stat-card">
-
-
                             <div className="stat-number">100%</div>
                             <div className="stat-label">STCW Compliant</div>
                         </div>
@@ -89,10 +82,16 @@ export default function Hero() {
                     </div>
 
 
+                    <div className="hero-logos">
+                        <img src="/img/Picture2.png" alt="Picture 2" className="logo" />
+                        <img src="/img/DNVLogo.jpg" alt="DNV Logo" className="logo" />
+                        <img src="/img/MMTI logo.jpg" alt="MMTI Logo" className="logo" />
+                    </div>
+
                     <div className='advertisement-section'>
                         <div className="advertisement-card">
                             <div className="ad-card-header">
-                                <h3 className="ad-card-title">Job Oppurtunities</h3>
+                                <h3 className="ad-card-title">Job Opportunities</h3>
                                 <span className="ad-card-badge">Limited Time</span>
                             </div>
                             <p className="ad-card-description">
